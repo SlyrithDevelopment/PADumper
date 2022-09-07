@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_memory"
+        android:enabled="true"
+        android:icon="@drawable/outline_memory_black_18"
+        android:title="@string/memory"
+
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_console"
+        android:enabled="true"
+        android:icon="@drawable/outline_handyman_black_18"
+        android:title="@string/console"
+        app:showAsAction="ifRoom" />
+</menu>
